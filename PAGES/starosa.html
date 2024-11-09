@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Alquileres</title>
-    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,23 +12,22 @@
         <nav>
             <div class="links">
                 <ul>
-                    <li> <a href="./index.html" class="active">Neuquen 266</a> </li>
-                    <li> <a href="./PAGES/neuquen274.html">Neuquen 274</a> </li>
-                    <li> <a href="./PAGES/starosa.html">Santa Rosa 1459</a> </li>
+                    <li> <a href="../index.html">Neuquen 266</a> </li>
+                    <li> <a href="./neuquen274.html">Neuquen 274</a> </li>
+                    <li> <a href="./starosa.html" class="active">Santa Rosa 1459</a> </li>
                 </ul>
             </div>
         </nav>
     </header>
     <h1>Gestión de Alquileres</h1>
-
     <div class="properties">
-        <div class="property" id="property1">
-            <h2>Neuquen 266</h2>
-            <button onclick="addTenantCard(1)">Agregar Inquilina</button>
-            <div class="tenants" id="tenants-property1"></div>
+        <div class="property" id="property3">
+            <h2>Santa Rosa 1459</h2>
+            <button onclick="addTenantCard(3)">Agregar Inquilina</button>
+            <div class="tenants" id="tenants-property3"></div>
         </div>
     </div>
 
-    <script src="./JS/app.js"></script>
+    <script src="../JS/app.js"></script>
 </body>
 </html>

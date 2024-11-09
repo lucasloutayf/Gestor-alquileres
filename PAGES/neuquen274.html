@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Alquileres</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<header>
+    <nav>
+        <div class="links">
+            <ul>
+                <li> <a href="../index.html">Neuquen 266</a> </li>
+                <li> <a href="./neuquen274.html" class="active">Neuquen 274</a> </li>
+                <li> <a href="./starosa.html">Santa Rosa 1459</a> </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<body>
+    <h1>Gestión de Alquileres</h1>
+    <div class="properties">
+        <div class="property" id="property2">
+            <h2>Neuquen 274</h2>
+            <button onclick="addTenantCard(2)">Agregar Inquilina</button>
+            <div class="tenants" id="tenants-property2"></div>
+        </div>
+    </div>
+
+    <script src="../JS/app.js"></script>
+</body>
+</html>
