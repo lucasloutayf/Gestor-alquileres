@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif; /* Aplica la fuente Poppins */
     background-color: #f4f4f9;
     color: #333;
-    padding: 20px;
+    padding: 0px;
     background-color: hsla(203.77358490566039, 88%, 47%, 1);
     background-image: radial-gradient(circle at 102% 80%, hsla(269, 66%, 59%, 1) 0%, transparent 40.308866813608354%), radial-gradient(circle at 16% 46%, hsla(0, 0%, 98%, 0.64) 0%, transparent 50%);
     background-blend-mode: normal, normal;
@@ -18,15 +18,15 @@ body {
 h1 {
     text-align: center;
     color: #fff;
-    margin-bottom: 5%;
-    position: sticky;
-    z-index: 10;
+    margin: 3% 0;
+    
 }
 
 header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    background-color: hsla(0, 0%, 0%, 0.042);
 }
 
 nav{
@@ -68,9 +68,9 @@ button{
 }
 
 .active{
-    padding: 3px 20px;
+    padding: 3px 25px;
     border-radius: 100px;
-    background-color: hsla(0, 0%, 0%, 0.208);
+    background-color: hsla(0, 0%, 0%, 0.064);
 }
 
 .properties {
@@ -78,6 +78,7 @@ button{
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    padding: 20px;
 }
 
 .property {
@@ -111,6 +112,10 @@ button{
 
 .tenants {
     margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
 }
 
 .tenant-card {
@@ -120,7 +125,8 @@ button{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 15px;
     margin-bottom: 15px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;;
+    width: 30%;
 }
 
 .tenant-card h3 {
