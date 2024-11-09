@@ -75,6 +75,7 @@ function saveTenantData(buttonElement) {
     const precioPieza = tenantCard.querySelector('input[name="precio_pieza"]').value;
     const estadoPago = tenantCard.querySelector('select[name="estado_pago"]').value;
     const fechaRecibo = tenantCard.querySelector('input[name="fecha_recibo"]').value;
+    const fechaVencimiento = tenantCard.querySelector('input[name="fecha_vencimiento"]').value;
     
     const tenantData = {
         nombre,
