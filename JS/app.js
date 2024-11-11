@@ -5,7 +5,7 @@ function addTenantCard(propertyId) {
     tenantCard.className = 'tenant-card';
 
     tenantCard.innerHTML = `
-        <h3 class="tenant-name" onclick="toggleDetails(this)">Inquilina</h3>
+        z<h3 class="tenant-name" onclick="toggleDetails(this)">Inquilina</h3>
         <div class="tenant-details">
             <label>Nombre: <input type="text" name="nombre" oninput="updateTenantName(this)"></label>
             <label>Apellido: <input type="text" name="apellido" oninput="updateTenantName(this)"></label>
