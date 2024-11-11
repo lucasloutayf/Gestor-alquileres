@@ -91,12 +91,12 @@ button{
 }
 
 .property h2 {
-    color: #4a90e2;
+    color: #fff;
     margin-bottom: 10px;
 }
 
 .property button {
-    background-color: #4a90e2;
+    background-color: #4a91e263;
     color: #fff;
     border: none;
     padding: 10px 15px;
@@ -190,10 +190,9 @@ button{
 
 .tenant-card {
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd31;
     border-radius: 10px;
     padding: 10px;
-    background-color: #f9f9f9;
 }
 
 .tenant-name {
@@ -217,7 +216,7 @@ button{
 }
 
 #property1, #property2, #property3 {
-    background-color: #fff;
+    background-color: #ffffff4f;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
