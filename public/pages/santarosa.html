@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Alquileres - Santa Rosa 1459</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/reports.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="links">
+                <ul>
+                    <li><a href="../index.html">Neuquen 266</a></li>
+                    <li><a href="neuquen274.html">Neuquen 274</a></li>
+                    <li><a href="santarosa.html" class="active">Santa Rosa 1459</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Gestión de Alquileres</h1>
+        
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="dashboard"></section>
+        
+        <div class="properties">
+            <div class="property" id="property3">
+                <h2>Santa Rosa 1459</h2>
+                <button onclick="addTenantCard(3)">Agregar Inquilina</button>
+                <div class="tenants" id="tenants-property3"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../JS/app.js"></script>
+    <script src="../JS/dashboard.js"></script>
+    <script src="../JS/reports.js"></script>
+</body>
+</html>
